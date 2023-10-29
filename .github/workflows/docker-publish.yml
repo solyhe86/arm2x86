@@ -23,7 +23,7 @@ jobs:
       id: docker-metadata
       uses: docker/metadata-action@v3
       with:
-        images: solyhe84/routeros
+        images: solyhe84/arm2x86
         tags: |
           type=semver,pattern={{version}}
 
