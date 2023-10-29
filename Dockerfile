@@ -1,5 +1,5 @@
 # 使用Alpine Linux作为基础镜像
-FROM arm64v8/alpine
+FROM alpine:latest
 
 # 更新包管理器并安装QEMU-user-static
 RUN apk update && apk add qemu-user-static
